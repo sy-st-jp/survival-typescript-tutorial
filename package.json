@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "main.ts",
 	"scripts": {
+		"node": "ts-node",
 		"format": "biome format --write ./src",
 		"lint": "biome lint --write ./src",
 		"check": "biome check --write ./src",
@@ -16,6 +17,8 @@
 	"author": "Shun Yoshida",
 	"license": "ISC",
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.2"
+		"@biomejs/biome": "^1.9.2",
+		"@types/node": "^22.5.5",
+		"ts-node": "^10.9.2"
 	}
 }
