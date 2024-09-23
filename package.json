@@ -1,15 +1,21 @@
 {
-  "name": "survival-typescript-tutorial",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.ts",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sy-st-jp/survival-typescript-tutorial.git"
-  },
-  "author": "Shun Yoshida",
-  "license": "ISC"
+	"name": "survival-typescript-tutorial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.ts",
+	"scripts": {
+		"format": "biome format --write ./src",
+		"lint": "biome lint --write ./src",
+		"check": "biome check --write ./src",
+		"test": "test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sy-st-jp/survival-typescript-tutorial.git"
+	},
+	"author": "Shun Yoshida",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.2"
+	}
 }
